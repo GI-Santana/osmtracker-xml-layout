@@ -1,0 +1,224 @@
+<layouts>
+	<layout name="root">
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+		
+		<row>
+			<button type="page" label="emergência" icon="fire_hydrant_1.jpg" targetlayout="emergência"  />
+			<button type="page" label="Caminho Florestal tipo 1" icon="Surface_grade1.jpg" targetlayout="Caminho Florestal tipo 1"  />
+			<button type="page" label="Caminho Florestal tipo 2" icon="Surface_grade2.jpg" targetlayout="Caminho Florestal tipo 2"  />
+		</row>
+		<row>
+			<button type="page" label="Caminho Florestal tipo 3" icon="Surface_grade3.jpg" targetlayout="Caminho Florestal tipo 3"  />
+			<button type="page" label="Caminho Florestal tipo 4" icon="Surface_grade4.jpg" targetlayout="Caminho Florestal tipo 4"  />
+		</row>
+		<row>
+			<button type="page" label="Caminho Florestal tipo 5" icon="Surface_grade5.jpg" targetlayout="Caminho Florestal tipo 5"  />
+			<button type="page" label="Estradas" icon="button_way" targetlayout="Estradas"  />
+<!-- 			<button type="page" label="@string/tag.track" icon="button_track" targetlayout="track"  />
+			<button type="page" label="@string/tag.landuse" icon="button_landuse" targetlayout="landuse"  /> -->
+		</row>
+	</layout>
+
+	<layout name="emergência">
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+		<row>
+			<button type="tag" label="Boca de Incêndio a esquerda" />
+			<button type="tag" label="Boca de Incêndio a direita" />
+		</row>
+		<row>
+			<button type="tag" label="Operacional" />
+			<button type="tag" label="Inoperacional" />
+		</row>
+	</layout>
+
+	<layout name="Caminho Florestal tipo 1">
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em bom estado" icon="Surface_grade1.jpg" />
+			<button type="tag" label="De 3 metros em bom estado" icon="Surface_grade1.jpg" />
+			<button type="tag" label="De 4 metros em bom estado" icon="Surface_grade1.jpg" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em estado razoavel" icon="Surface_grade1.jpg" />
+			<button type="tag" label="De 3 metros em estado razoavel" icon="Surface_grade1.jpg" />
+			<button type="tag" label="De 4 metros em estado razoavel" icon="Surface_grade1.jpg" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em mau estado" icon="Surface_grade1.jpg" />
+			<button type="tag" label="De 3 metros em mau estado" icon="Surface_grade1.jpg" />
+			<button type="tag" label="De 4 metros em mau estado" icon="Surface_grade1.jpg" />
+		</row>
+	</layout>
+
+	<layout name="Caminho Florestal tipo 2">
+		<row>
+			<button type="tag" label="De 2 metros em bom estado" icon="Surface_grade2.jpg" />
+			<button type="tag" label="De 3 metros em bom estado" icon="Surface_grade2.jpg" />
+			<button type="tag" label="De 4 metros em bom estado" icon="Surface_grade2.jpg" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em estado razoavel" icon="Surface_grade2.jpg" />
+			<button type="tag" label="De 3 metros em estado razoavel" icon="Surface_grade2.jpg" />
+			<button type="tag" label="De 4 metros em estado razoavel" icon="Surface_grade2.jpg" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em mau estado" icon="Surface_grade2.jpg" />
+			<button type="tag" label="De 3 metros em mau estado" icon="Surface_grade2.jpg" />
+			<button type="tag" label="De 4 metros em mau estado" icon="Surface_grade2.jpg" />
+		</row>
+	</layout>
+
+	<layout name="Caminho Florestal tipo 3">
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em bom estado" icon="Surface_grade3.jpg" />
+			<button type="tag" label="De 3 metros em bom estado" icon="Surface_grade3.jpg" />
+			<button type="tag" label="De 4 metros em bom estado" icon="Surface_grade3.jpg" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em estado razoavel" icon="Surface_grade3.jpg" />
+			<button type="tag" label="De 3 metros em estado razoavel" icon="Surface_grade3.jpg" />
+			<button type="tag" label="De 4 metros em estado razoavel" icon="Surface_grade3.jpg" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em mau estado" icon="Surface_grade3.jpg" />
+			<button type="tag" label="De 3 metros em mau estado" icon="Surface_grade3.jpg" />
+			<button type="tag" label="De 4 metros em mau estado" icon="Surface_grade3.jpg" />
+		</row>
+	</layout>
+
+	<layout name="Caminho Florestal tipo 4">
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em bom estado" icon="Surface_grade4.jpg" />
+			<button type="tag" label="De 3 metros em bom estado" icon="Surface_grade4.jpg" />
+			<button type="tag" label="De 4 metros em bom estado" icon="Surface_grade4.jpg" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em estado razoavel" icon="Surface_grade4.jpg" />
+			<button type="tag" label="De 3 metros em estado razoavel" icon="Surface_grade4.jpg" />
+			<button type="tag" label="De 4 metros em estado razoavel" icon="Surface_grade4.jpg" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em mau estado" icon="Surface_grade4.jpg" />
+			<button type="tag" label="De 3 metros em mau estado" icon="Surface_grade4.jpg" />
+			<button type="tag" label="De 4 metros em mau estado" icon="Surface_grade4.jpg" />
+		</row>
+	</layout>
+
+	<layout name="Caminho Florestal tipo 5">
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em bom estado" icon="Surface_grade5.jpg" />
+			<button type="tag" label="De 3 metros em bom estado" icon="Surface_grade5.jpg" />
+			<button type="tag" label="De 4 metros em bom estado" icon="Surface_grade5.jpg" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em estado razoavel" icon="Surface_grade5.jpg" />
+			<button type="tag" label="De 3 metros em estado razoavel" icon="Surface_grade5.jpg" />
+			<button type="tag" label="De 4 metros em estado razoavel" icon="Surface_grade5.jpg" />
+		</row>
+		<row>
+			<button type="tag" label="De 2 metros em mau estado" icon="Surface_grade5.jpg" />
+			<button type="tag" label="De 3 metros em mau estado" icon="Surface_grade5.jpg" />
+			<button type="tag" label="De 4 metros em mau estado" icon="Surface_grade5.jpg" />
+		</row>
+	</layout>
+
+	<layout name="Estradas">
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+		<row>
+			<button type="tag" label="ponte" />
+			<button type="tag" label="passadeira" />
+			<button type="tag" label="Auto-estrada" />
+		</row>
+		<row>
+			<button type="tag" label="IP" />
+			<button type="tag" label="IC/EN" />
+			<button type="tag" label="Estradas Regionais" />
+		</row>
+		<row>
+			<button type="tag" label="Estradas Municipais" />
+			<button type="tag" label="Caminhos residenciais" />
+			<button type="tag" label="Caminho privado" />
+		</row>
+	</layout>
+
+<!-- 	<layout name="track">
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+		<row>
+			<button type="tag" label="@string/tag.track_track" icon="button_track_track" />
+			<button type="tag" label="@string/tag.track_cycleway" icon="button_track_cycleway" />
+			<button type="tag" label="@string/tag.track_footway" icon="button_track_footway" />
+		</row>
+		<row>
+			<button type="tag" label="@string/tag.track_bridleway" icon="button_track_bridleway" />
+			<button type="tag" label="@string/tag.track_steps" icon="button_track_steps" />
+			<button type="tag" label="@string/tag.track_living_street" icon="button_track_living_street" />
+		</row>
+		<row>
+			<button type="tag" label="@string/tag.track_pedestrian" icon="button_track_pedestrian" />
+			<button type="tag" label="@string/tag.track_grade1" icon="button_track_grade1" />
+			<button type="tag" label="@string/tag.track_grade2" icon="button_track_grade2" />
+		</row>
+		<row>
+			<button type="tag" label="@string/tag.track_grade3" icon="button_track_grade3" />
+			<button type="tag" label="@string/tag.track_grade4" icon="button_track_grade4" />
+			<button type="tag" label="@string/tag.track_grade5" icon="button_track_grade5" />
+		</row>
+	</layout>
+
+	<layout name="landuse">
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+		<row>
+			<button type="tag" label="@string/tag.landuse_farm" icon="button_landuse_farm" />
+			<button type="tag" label="@string/tag.landuse_landfill" icon="button_landuse_landfill" />
+			<button type="tag" label="@string/tag.landuse_basin" icon="button_landuse_basin" />
+		</row>
+		<row>
+			<button type="tag" label="@string/tag.landuse_reservoir" icon="button_landuse_reservoir" />
+			<button type="tag" label="@string/tag.landuse_forest" icon="button_landuse_forest" />
+			<button type="tag" label="@string/tag.landuse_allotments" icon="button_landuse_allotments" />
+		</row>
+		<row>
+			<button type="tag" label="@string/tag.landuse_cemetery" icon="button_landuse_cemetery" />
+			<button type="tag" label="@string/tag.landuse_recreation_ground" icon="button_landuse_recreation_ground" />
+		</row>
+	</layout> -->
+</layouts>
